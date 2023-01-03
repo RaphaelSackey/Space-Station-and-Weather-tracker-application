@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2</title>
+    
+    <!-- using leaflet library -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <style>
+        #map { height: 360px;
+            border: 5px outset black; }
+        #return{
+            border: 5px outset black;
+            background-color: lightblue; 
+            text-align: center;
+        }
+       
+
+    </style>
+</head>
+<body>
+
+    <div id="map"></div><br>
+ <div id="return">
+    <h1>Current longitude, latitude and speed of the ISS</h1>
+    <p>longitude: <span id="long"></span><br />
+        latitude: <span id="lat"></span><br />
+        speed of ISS in kilometers: <span id="speed"></span>
+
+    </p>
+    <br><br>
+    <h2>Temperature in celsius at the locationg of the ISS</h2>
+    <div id="display">
+        <p> temperature in celsius: <span id="temp"></span><br />
+            feels like: <span id="feel"></span> <br>
+            humidity: <span id="humi"></span> <br>
+            pressure: <span id="pres"></span> <br>
+            maximum temperature: <span id="max"></span> <br>
+            minimum temperature: <span id="min"></span> 
+
+        </p>
+    </div>
+    </div>
+    <script src="project2.js"> </script>
+
+</body>
+</html>
