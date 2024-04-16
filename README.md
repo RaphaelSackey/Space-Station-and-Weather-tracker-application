@@ -1,5 +1,3 @@
 # Space-Station-and-Weather-tracker-application
-an application that tracks the space station and displays the weather
-this application retrieves data from two APIs, "etheiss.at" and "enweathermap.org"
-the data retrieved from these apis and converted into Json format and then used,
-the appication tracks the movement and location of the international space station in real time and provides a visual representation on a map and then displats the weather at the current location if the space station.
+
+This application provides real-time tracking of the International Space Station (ISS) and displays the current weather at its location. It retrieves data from two APIs: "etheiss.at" for tracking the ISS and "enweathermap.org" for weather updates. The data from these APIs is converted into JSON format for use within the application. It features a dynamic map that visually represents the movement and precise location of the ISS. Additionally, it displays the weather conditions at the ISS's current location, offering a unique integration of space tracking and meteorological data. This allows users to visually follow the ISS as it orbits the Earth, along with instant weather updates for its immediate vicinity.
